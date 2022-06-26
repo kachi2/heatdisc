@@ -58,7 +58,7 @@ class LogitRegression(): # Logistic Regression class
   
 
 def find():  #To split the dataset into X and Y 
-    df = pd.read_csv("C:\\Users\\USER\\Desktop\\HDPS Final\\HeartDisease-master\\predictor\\heartdata.csv") 
+    df = pd.read_csv("C:\\Users\\USER\Desktop\heartdis\HDPS-FocusUs\predictor\heartdata.csv") 
     X = df.iloc[:,:-1].values 
     Y = df.iloc[:,-1:].values
     return X,Y
